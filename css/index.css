@@ -1,0 +1,130 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#7a4de8,#4c2dbf);
+}
+
+.container{
+    width:350px;
+}
+
+.login-box{
+    background:white;
+    border-radius:30px;
+    padding:40px 30px;
+    text-align:center;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
+
+.logo{
+    color:#7a4de8;
+    margin-bottom:10px;
+    letter-spacing:3px;
+}
+
+h2{
+    margin-top:10px;
+}
+
+.login-box p{
+    color:#666;
+    font-size:14px;
+    margin-bottom:25px;
+}
+
+.input-box{
+    background:#f1f1f1;
+    border-radius:8px;
+    padding:12px;
+    display:flex;
+    align-items:center;
+    margin-bottom:15px;
+}
+
+.input-box i{
+    margin-right:10px;
+    color:#888;
+}
+
+.input-box input{
+    border:none;
+    background:none;
+    outline:none;
+    width:100%;
+}
+
+.forgot{
+    text-align:right;
+    margin-bottom:20px;
+}
+
+.forgot a{
+    text-decoration:none;
+    font-size:12px;
+    color:#666;
+}
+
+.login-btn{
+    width:100%;
+    padding:12px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(#7a4de8,#4c2dbf);
+    color:white;
+    font-weight:bold;
+    cursor:pointer;
+    margin-bottom:20px;
+}
+
+.signup-text{
+    font-size:13px;
+}
+
+.social{
+    display:flex;
+    justify-content:center;
+    gap:15px;
+    margin:15px 0;
+}
+
+.circle{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    cursor:pointer;
+}
+
+.facebook{
+    background:#1877f2;
+}
+
+.google{
+    background:#db4437;
+}
+
+.apple{
+    background:#333;
+}
+
+.create{
+    font-size:13px;
+}
+
+.create a{
+    font-weight:bold;
+    text-decoration:none;
+    color:#4c2dbf;
+}
